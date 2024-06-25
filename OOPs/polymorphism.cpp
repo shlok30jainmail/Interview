@@ -18,9 +18,10 @@ class College{
     // void fun(int a){  // error overloading <--- same fun .... we solve it using different parameter 
     //     cout<<"1"<<endl;
     // }
-        void fun(int b){
+    void fun(int b){
         cout<<"0"<<endl;
     }
+
     
 };
 

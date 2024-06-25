@@ -1,0 +1,14 @@
+{
+  "name": "1-express",
+  "version": "1.0.0",
+  "description": "This is node practicing folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shlok",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
