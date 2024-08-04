@@ -10,6 +10,7 @@ bool binarySearch(int arr[], int n, int key){
     while(s<e){
         if(arr[mid]==key){
             ans = true;
+            break;
         }else if(arr[mid]<key){
             s= mid+1;
         }else{
@@ -22,9 +23,12 @@ bool binarySearch(int arr[], int n, int key){
 }
 
 int main(){
+    int n, key ;
+    cin>>n>>key;
+    
     int arr[10] = {1,2,3,4,5,6,7,8,9,10};
 
-    if(binarySearch(arr,10,7)) cout<<"Yes it is present"<<endl;
+    if(binarySearch(arr,n,key)) cout<<"Yes it is present"<<endl;
     else cout<<"No it is not present"<<endl;
     cout<<"Thanks"<<endl;
     return 0;
